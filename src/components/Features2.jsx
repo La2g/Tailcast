@@ -42,7 +42,7 @@ export const Features2 = () => (
             </h2>
             <p className="mb-12 text-customGrayText leading-loose">
             Our custom integrations allow businesses to create solutions that are specifically tailored 
-            to them. Having your data siloed can lead to confusion, short sightness and 
+            to them. Having your data siloed can lead to confusion, short sightedness and 
             lack of transparency. Having a combine view of all your platforms ensures that your reports 
             aligns perfectly with your organization's workflow and processes.
             </p>
