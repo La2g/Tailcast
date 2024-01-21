@@ -35,15 +35,16 @@ export const Features2 = () => (
         <div className="w-full lg:w-1/2 mb-12 lg:mb-0 xl:pl-8">
           <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
             <span className="custom-block-subtitle">
-              Make Data-Driven Decisions
+            Using your data should not be a hassle
             </span>
-            <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-              Issue tracking you’ll enjoy using
+            <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-title">
+            Don't limit yourself to just your platforms basic reports
             </h2>
             <p className="mb-12 text-customGrayText leading-loose">
-              Monitor and track data issues with ease using our intuitive and
-              efficient issue tracking system. Stay ahead of potential problems
-              and improve your workflow.
+            Our custom integrations allow businesses to create solutions that are specifically tailored 
+            to them. Having your data siloed can lead to confusion, short sightness and 
+            lack of transparency. Having a combine view of all your platforms ensures that your reports 
+            aligns perfectly with your organization's workflow and processes.
             </p>
             <ul className="mb-6 text-white">
               <li className="mb-4 flex">

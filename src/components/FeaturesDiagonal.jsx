@@ -34,19 +34,18 @@ export const FeaturesDiagonal = () => {
             <span className="custom-block-subtitle">
               Accelerate Your Success
             </span>
-            <h2 className="mt-10 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-              Build &amp; Launch without problems
+            <h2 className="mt-10 mb-8 text-4xl lg:text-5xl custom-block-title">
+              Data Consultation and Process Automization
             </h2>
-            <p className="mb-16 text-customGrayText leading-loose">
-              Our platform enables you to launch your data-driven projects with
-              ease. Boost productivity and achieve better results. Empower your
-              decision-making with advanced analytics
+            <p className="mb-12 text-customGrayText leading-loose">
+            Manual work leaves space for human error and little oppotunities for improvement. 
+            Our consultations help you create a modern workflows for small businesses
+            and fast-track their growth.
             </p>
             <div
-              className="w-[210px] h-12 custom-button-colored mr-10 "
+              className="w-[250px] h-12 custom-button-colored mr-10 "
               onClick={() => setIsModalOpen(true)}
-            >
-              Get Started
+            > Schedule a free Consultation
             </div>
           </div>
           <div className="w-4/5 lg:w-1/2 lg:pl-16 flex justify-center mx-auto pt-16 lg:pt-0">
