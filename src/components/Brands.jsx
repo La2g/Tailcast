@@ -4,7 +4,7 @@ import { AmazonLogo } from "../assets/logos/AmazonLogo";
 import { DropboxLogo } from "../assets/logos/DropboxLogo";
 import { NetflixLogo } from "../assets/logos/NetflixLogo";
 import { SlackLogo } from "../assets/logos/SlackLogo";
-import { SpotifyLogo } from "../assets/logos/SpotifyLogo";
+import { SpotifyLogo } from "../assets/logos/HubSpotLogo";
 import { StripeLogo } from "../assets/logos/StripeLogo";
 
 export const Brands = () => (
@@ -20,10 +20,10 @@ export const Brands = () => (
           <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
             <div className="flex flex-col">
               <h2 className="mb-2  text-4xl sm:text-5xl 2xl:text-6xl font-bold tracking-normal text-white">
-                Trusted by brands
+                We work with the 
               </h2>
               <h2 className=" text-4xl  sm:text-5xl 2xl:text-6xl font-bold tracking-normal text-customSecondary">
-                all over the world
+               best tools in the market
               </h2>
             </div>
           </div>
