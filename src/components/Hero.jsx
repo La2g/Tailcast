@@ -65,15 +65,13 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.15 }}
         >
           <div className="relative w-screen flex justify-center ">
-            <img
-              src={dashboard}
-              alt="123"
-              className="w-4/5 2xl:w-[1200px] mx-auto absolute z-10 rounded-xl custom-border-gray hero-dashboard-border-gradient lg:top-6 xl:top-0"
-            />
+              <iframe src="https://app.databox.com/datawall/27acae2f755380cde96b62d0df234a6c4d8562c65c14bc6?i" width="1024" height="560" frameborder="0"
+               webkitallowfullscreen mozallowfullscreen allowfullscreen>
+               </iframe>
           </div>
         </motion.div>
         <div className="relative w-screen flex justify-center ">
-          <div className="custom-shape-divider-bottom-1665343298 mt-4 sm:mt-16 md:mt-52 hidden lg:block">
+          <div className="custom-shape-divider-bottom-1665343298 mt-4 sm:mt-16 md:mt-16 hidden lg:block">
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
