@@ -40,7 +40,7 @@ export const Features2 = () => (
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-title">
             Don't limit yourself to just your platforms basic reports
             </h2>
-            <p className="mb-12 text-customGrayText leading-loose">
+            <p className="mb-10 text-customGrayText leading-loose">
             Our custom integrations allow businesses to create solutions that are specifically tailored 
             to them. Having your data siloed can lead to confusion, short sightedness and 
             lack of transparency. Having a combine view of all your platforms ensures that your reports 

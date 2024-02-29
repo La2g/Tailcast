@@ -28,7 +28,6 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.05 }}
         >
           <div className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-8 md:px-20 lg:px-4">
-            <span className="inline md:hidden">Analytics</span>
             <span className="hidden md:inline">Business Intelligence</span>
           </div>
           <div className="mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-20 md:px-24 lg:px-24">
@@ -40,9 +39,11 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          <div className="text-customGrayText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48 ">
-            Experience seamless business integrations and powerful insights by 
-            having all your data accessible at a glance.
+          <div className="text-customGrayText text-sm lg:text-base lx:text-lg sm:text-base mt-8 px-12 sm:px-48 ">
+          Experience the power of accessing all your data instantly.   
+          </div>
+          <div className="text-customGrayText text-sm lg:text-base lx:text-lg sm:text-base px-12 sm:px-24 ">
+          Say goodbye to the hassle of report building and hello to swift, informed decisions.
           </div>
         </motion.div>
         <motion.div
@@ -53,8 +54,7 @@ export const Hero = () => {
           <div className="flex flex-col gap-2 sm:flex-row mt-14 mb-24 sm:mb-40 justify-center">
             <div
               className="custom-button-colored w-64 sm:w-64 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
-              onClick={() => setIsModalOpen(true)}
-            >
+              onClick={() => setIsModalOpen(true)}>
               Schedule a Free Consultation
             </div>
           </div>

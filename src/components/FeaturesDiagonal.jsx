@@ -35,12 +35,11 @@ export const FeaturesDiagonal = () => {
               Accelerate Your Success
             </span>
             <h2 className="mt-10 mb-8 text-4xl lg:text-5xl custom-block-title">
-              Data Consultation and Process Automization
+              Report Building and Data Visualization
             </h2>
             <p className="mb-12 text-customGrayText leading-loose">
-            Manual work leaves space for human error and little oppotunities for improvement. 
-            Our consultations help you create a modern workflows for small businesses
-            and fast-track their growth.
+            Our report building service is here to futher simplify your workflow.
+            Our service ensures that your reports are not only accurate and timely but also visually compelling and easy to understand.
             </p>
             <div
               className="w-[250px] h-12 custom-button-colored mr-10 "

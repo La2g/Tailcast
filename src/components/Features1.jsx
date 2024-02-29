@@ -21,18 +21,19 @@ export const Features1 = () => {
         <div className="flex flex-wrap items-center 2xl:w-[1450px] xl:w-[1300px] w-11/12 mx-auto md:pl-4 xl:pr-16 xl:pl-16">
           <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
-              <span className="custom-block-subtitle">Discover a new level of data analysis</span>
+              <span className="custom-block-subtitle">Accelerate Your Success</span>
               <h2 className="mt-6 mb-8 text-5xl lg:text-4xl custom-block-title">
-              Ditch Excel and Embrace Innovation 
+              Data Consultation and Process Automization
               </h2>
-              <p className="mb-10 text-customGrayText leading-loose">
-              Make Data-Driven Decisions with our innovative and user-friendly reports. 
-              Transform your business needs into KPIs that track what matters.
+              <p className="mb-6 text-customGrayText leading-loose">
+              Our consultations strive to establish modern, automated data flows that significantly reduce manual labor in report building. 
+              By leveraging cutting-edge Business Intelligence tools, we create robust data infrastructures that operates seamlessly.
               </p>
+              <p className="mb-4 text-customGrayText leading-loose">This will allow you to:</p>
               <ul className="mb-6 text-white">
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Make the right decisions for your business</span>
+                  <span>Access your main KPI's instantly</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
