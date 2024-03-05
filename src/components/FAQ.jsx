@@ -3,24 +3,33 @@ import { motion } from "framer-motion";
 
 const FAQData = [
   {
-    question: "Can I upgrade or downgrade my plan at any time?",
-    answer:
-      "Yes, you can easily upgrade or downgrade your plan at any time. Simply navigate to the account settings in your dashboard and choose the desired plan. The changes will be reflected immediately, and any adjustments in pricing will be applied on your next billing cycle. Our support team is more than happy to provide guidance and recommendations.",
+    question: "What types of data services do you offer?",
+    answer:[
+      "Our services include:",
+
+      "- Creating robust business intelligence infrastructure for your organization, enabling you to make quick and informed decisions based on data",
+      "- Building custom integrations to centralize your data from various platforms, ensuring data consistency and accessibility",
+      "- Developing custom reports tailored to your specific needs, and data visualizations for your presentations simplifing sharing data with stakeholders",
+    ].join("\n")
   },
   {
-    question: "How to claim your 25% discount offer?",
-    answer:
-      "To claim your 25% discount, simply sign up for an account and enter the promotional code at checkout. The discount will be applied automatically to your purchase.",
+    question: "Can you help us integrate data analytics into our existing systems?",
+    answer:[
+      "Of course, we can help you improve your existing systems in multiple ways.",
+      "We identify the best analytics softwares and tools for your need and budget, integrating them to enhance your analitical capabilities. Whether you're looking to implement new analytics software or optimize your existing tools, we can tailor a solution to fit your requirements"
+    ].join("\n")
   },
   {
-    question: "What's your refund policy?",
+    question: "What industries do you specialize in?",
     answer:
-      "We offer a 30-day money-back guarantee on all our plans. If you're not satisfied with our product, simply contact our support team within 30 days of purchase for a full refund.",
+      "We most often collaborate with start-ups and family business, but as data is everywhere we are happy to work with any organization that may benefits from our experience.",
   },
   {
-    question: "How to get support for the product?",
-    answer:
-      "Our dedicated support team is here to help. You can reach out to us through the contact form on our website, send an email, or engage with us via live chat. We'll be happy to assist you with any questions or concerns you may have",
+    question: "How do you ensure data privacy and security?",
+    answer:[
+      "We prioritize data privacy and security by implementing protocols that includes encryption methods, access controls, and strict adherance to NDAs.",
+      "Additionally, our team undergoes regular training to stay updated with the latest security practices and threats"
+    ].join("\n")
   },
 ];
 
@@ -72,7 +81,7 @@ const FAQBox = ({ defaultOpen, title, content }) => {
           {title}
         </h3>
         <p
-          className={`text-customGrayText pt-4 transition-all duration-300 overflow-hidden ${
+          className={`text-customGrayText whitespace-pre-wrap pt-4 transition-all duration-300 overflow-hidden ${
             isOpen ? "max-h-96" : "max-h-0"
           }`}
         >
