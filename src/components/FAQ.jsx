@@ -31,6 +31,11 @@ const FAQData = [
       "Additionally, our team undergoes regular training to stay updated with the latest security practices and threats"
     ].join("\n")
   },
+  {
+    question: "I am Interested. How can we start discussing my current setup?",
+    answer:
+      "Submit this form and we will reach out to schedule your free 15 minute consultation and discuss next steps."
+  },
 ];
 
 export const FAQ = () => (
