@@ -59,17 +59,6 @@ export const Hero = () => {
             </div>
           </div>
         </motion.div>
-        <motion.div
-          initial={{ opacity: 0, y: 10, zIndex: 20 }}
-          animate={{ opacity: 1, y: 0, zIndex: 20 }}
-          transition={{ duration: 0.5, delay: 0.15 }}
-        >
-          <div className="relative w-screen flex justify-center ">
-              <iframe src="https://app.databox.com/datawall/27acae2f755380cde96b62d0df234a6c4d8562c65c14bc6?i" width="1024" height="560" frameborder="0"
-               webkitallowfullscreen mozallowfullscreen allowfullscreen>
-               </iframe>
-          </div>
-        </motion.div>
         <div className="relative w-screen flex justify-center ">
           <div className="custom-shape-divider-bottom-1665343298 mt-4 sm:mt-16 md:mt-16 hidden lg:block">
             <svg

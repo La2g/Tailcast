@@ -14,8 +14,8 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full h-20 flex flex-col justify-center items-center fixed bg-customDarkBg1 lg:bg-customDarkBgTransparent z-40 lg:backdrop-blur-xl">
-      <div className="2xl:w-[1280px] xl:w-10/12 w-11/12 flex justify-between items-center relative">
+    <nav className="fixed w-full h-20 flex flex-col justify-between items-center bg-customDarkBg1 lg:bg-customDarkBgTransparent z-40 lg:backdrop-blur-xl">
+      <div className="2xl:w-[1600px] xl:w-11/12 flex justify-between items-center">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -23,11 +23,11 @@ export const Navbar = () => {
           exit={{ opacity: 0 }}
         >
           <a className="navbar-link" href="#home" aria-label="Home">
-            <div className="flex justify-start items-center grow basis-0">
+            <div className="flex items-center grow basis-0">
               <div className="text-white mr-2 text-6xl">
                 <TailcastLogo />
               </div>
-              <div className="text-white font-['Inter'] font-bold text-xl">
+              <div className=" text-white font-['Inter'] font-bold text-xl">
                 Data Republic
               </div>
             </div>
@@ -50,6 +50,14 @@ export const Navbar = () => {
                 {label}
               </a>
             ))}
+            <a
+                className="custom-button-colored py-2 px-5 rounded-md"
+                href="#home"
+                aria-label="Contact Us"
+                key="Contact Us"
+              >
+               Contact Us
+              </a>
           </div>
         </motion.div>
         <motion.div
