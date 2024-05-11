@@ -35,29 +35,27 @@ export const Features2 = () => (
         <div className="w-full lg:w-1/2 mb-12 lg:mb-0 xl:pl-8">
           <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
             <span className="custom-block-subtitle">
-            Using your data should not be a hassle
+            Make your data accessible anywhere
             </span>
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-title">
-            Don't limit yourself to just your platforms basic reports
+            Custom integrations between apps
             </h2>
             <p className="mb-10 text-customGrayText leading-loose">
             Our custom integrations allow businesses to create solutions that are specifically tailored 
-            to them. Having your data siloed can lead to confusion, short sightedness and 
-            lack of transparency. Having a combine view of all your platforms ensures that your reports 
-            aligns perfectly with your organization's workflow and processes.
+            to them. Don't limit yourself to just your platform basic reports, having your data siloed can lead to confusion, and short sightedness. 
             </p>
             <ul className="mb-6 text-white">
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Collaborative environment</span>
+                <span>Integrations built for your needs</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Smart issue categorization</span>
+                <span>Simplify your workflows and reduce manual labor</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Customizable notifications</span>
+                <span>Scalability and Flexibility</span>
               </li>
             </ul>
           </div>
