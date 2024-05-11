@@ -21,6 +21,7 @@ export const Navbar = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.3 }}
           exit={{ opacity: 0 }}
+          className="flex items-center grow basis-0"
         >
           <a className="navbar-link" href="#home" aria-label="Home">
             <div className="flex items-center grow basis-0">
